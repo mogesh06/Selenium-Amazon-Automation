@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+	<test name="Class1">
+		<classes>
+			<class name="test.BaseTest" />
+			<class name="test.UrlValidationTest" />
+		</classes>
+	</test> <!--
+	Class1 -->
+
+	<test name="Class2">
+		<classes>
+			<class name="test.PageNavigationTest" />
+		</classes>
+	</test> <!--
+	Class2 -->
+
+	<test name="Class3">
+		<parameter name="username" value="test@gmail.com" />
+		<parameter name="password" value="test123" />
+		<classes>
+			<class name="test.SignInTest" />
+		</classes>
+	</test> <!--
+	Class3 -->
+
+	<test name="Class4">
+		<classes>
+			<class name="test.ProductTest" />
+		</classes>
+	</test> <!--
+	Class4 -->
+
+</suite> <!--
+Suite -->
