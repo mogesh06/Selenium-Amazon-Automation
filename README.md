@@ -1,10 +1,10 @@
 # Selenium-Amazon-Automation
 
-Project Details 
+# Project Details 
 
 ABC Business Solutions has bagged a contract for an Automation testing services project with Amazon. As part of the preliminary project acceptance, Amazon has asked ABC Business Solutions to design a POC of the Selenium automation project with data-driven framework using standard data exchange files with Maven and TestNG. As you are part of the ABC Business Solutions team you are given the task for designing this POC. 
 
-Software Pre-requisites:  
+# Software Pre-requisites:  
 
 
 <table><tr><th colspan="1" rowspan="2"><b>Software</b> </th><th colspan="2"><b>Version</b> </th><th colspan="1" rowspan="1"><b>Download Link</b> </th><th colspan="1" rowspan="2"><b>Additional Information</b> </th></tr>
@@ -16,7 +16,7 @@ Software Pre-requisites:
 <tr><td colspan="1">TestNG </td><td colspan="1">7\.9.0 </td><td colspan="1">7\.9.0 </td><td colspan="1"></td></tr>
 </table>
 
-Overall Project Details 
+# Overall Project Details 
 
 1. Design a Data-Driven project using properties file, xml file, yaml file (if required) 
 1. Create a Maven Project 
